@@ -1,6 +1,10 @@
 # nginx-openresty-dynamic-ssl
 nginx openresty dynamic ssl lua script + cache
 
+There is an auto letsencrypt nginx lua module out there. But good luck using it and using it safely in a load-balanced environment and without letsencrypt.
+
+With this cert generation is a different process and this is only using the pre-generated certs/keys.
+
 ### how to use it
 
 Default configuration is in the lua script. And dir/file structure as an example:
